@@ -93,6 +93,8 @@
                         <viewLayoutGuide key="safeArea" id="4dg-Po-XnB"/>
                     </view>
                     <connections>
+                        <outlet property="BackButton" destination="zV8-s2-3Zm" id="EQU-vz-hO8"/>
+                        <outlet property="NextButton" destination="Wjg-n0-8dA" id="Eh5-7q-2nb"/>
                         <outlet property="SecondScreenLabel" destination="8zU-lg-09u" id="NMw-3J-Ty2"/>
                         <segue destination="WwQ-0u-x4B" kind="presentation" identifier="EndView" id="guC-iA-gI7"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="StartView" id="eBD-bk-NKQ"/>
@@ -134,6 +136,7 @@
                         <viewLayoutGuide key="safeArea" id="4YM-Vc-gav"/>
                     </view>
                     <connections>
+                        <outlet property="BackButton" destination="h2Z-F8-2oO" id="WPj-xK-EVc"/>
                         <outlet property="EndScreenLabel" destination="P5j-C5-zKf" id="jA2-Ch-9Y6"/>
                         <segue destination="Uhj-sc-mWn" kind="presentation" identifier="SecondView" id="Vg5-6g-Ibp"/>
                     </connections>
@@ -148,6 +151,6 @@
         <image name="NextButton" width="150" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KK6-Gy-dR2"/>
+        <segue reference="Vg5-6g-Ibp"/>
     </inferredMetricsTieBreakers>
 </document>
